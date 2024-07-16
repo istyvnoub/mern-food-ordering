@@ -1,0 +1,24 @@
+# Fichiers spécifiques au système
+.DS_Store
+Thumbs.db
+
+# Fichiers de logs
+logs/
+*.log
+npm-debug.log*
+
+# Répertoires de dépendances
+/node_modules/
+jspm_packages/
+
+# Répertoires de build
+/dist/
+build/
+out/
+
+# Fichiers temporaires de développement
+*.swp
+*~
+.project
+.idea/
+.vscode/
